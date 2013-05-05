@@ -1,5 +1,3 @@
-// This is the SymbolInfo class file
-
 #include "SymbolInfo.h"
 using namespace std;
 
