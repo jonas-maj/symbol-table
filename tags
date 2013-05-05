@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+SIZE	SymbolTable.h	5;"	d
+SymbolInfo	SymbolInfo.cpp	/^SymbolInfo::SymbolInfo(string &name, string &type)$/;"	f	class:SymbolInfo
+SymbolInfo	SymbolInfo.h	/^class SymbolInfo$/;"	c
+SymbolTable	SymbolTable.h	/^class SymbolTable$/;"	c
+dump	SymbolTable.cpp	/^void SymbolTable::dump()$/;"	f	class:SymbolTable
+hash	SymbolTable.cpp	/^int SymbolTable::hash(const string& s)$/;"	f	class:SymbolTable
+insert	SymbolTable.cpp	/^int SymbolTable::insert(SymbolInfo *si)$/;"	f	class:SymbolTable
+lookup	SymbolTable.cpp	/^SymbolInfo* SymbolTable::lookup(const string& symbol)$/;"	f	class:SymbolTable
+main	main.cpp	/^int main()$/;"	f
+prompt	main.cpp	/^int prompt()$/;"	f
+symbol_name	SymbolInfo.h	/^    std::string symbol_name;$/;"	m	class:SymbolInfo
+symbol_type	SymbolInfo.h	/^    std::string symbol_type;$/;"	m	class:SymbolInfo
+table	SymbolTable.h	/^    std::list<SymbolInfo*> table[SIZE];$/;"	m	class:SymbolTable
